@@ -1,8 +1,9 @@
 import React from "react";
-import ProfilePic1 from "../Assets/john-doe-image.png";
+import ProfilePic1 from "../Assets/lakshan.png";
 import ProfilePic2 from "../Assets/hasitha.png";
 import ProfilePic3 from "../Assets/tharani.png";
 import ProfilePic4 from "../Assets/sasa.png";
+import ProfilePic5 from "../Assets/dinushanka.png";
 
 
 const Testimonial = () => {
@@ -65,7 +66,7 @@ const Testimonial = () => {
         </div>
 
         <div style={styles.testimonialCard}>
-          <img style={styles.testimonialCardImg} src={ProfilePic1} alt="" />
+          <img style={styles.testimonialCardImg} src={ProfilePic5} alt="" />
           <p style={styles.testimonialCardText}>
           Connectivity Engineer
           </p>

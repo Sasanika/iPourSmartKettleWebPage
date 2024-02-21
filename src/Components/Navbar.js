@@ -1,9 +1,13 @@
 import React from 'react';
 import kettleLogo from '../Assets/iPourLogo.png';
-import { Link } from 'react-scroll';
+import { Link,animateScroll as scroll } from 'react-scroll';
+//import About from './About';
+
 
 const Navbar = () => {
   const handleSetActive = (to) => {
+    
+    scroll.scrollToBottom();
     console.log(to);
   };
 
@@ -17,7 +21,7 @@ const Navbar = () => {
           <li style={listItemStyle}>
             <Link
               activeClass="active"
-              to="home"
+              to="/"
               spy={true}
               smooth={true}
               offset={-50} // Adjust offset if needed
@@ -30,7 +34,7 @@ const Navbar = () => {
           <li style={listItemStyle}>
             <Link
               activeClass="active"
-              to="about"
+              to="About"
               spy={true}
               smooth={true}
               offset={-50} // Adjust offset if needed
@@ -67,7 +71,7 @@ const Navbar = () => {
             </Link>
           </li>
           <li style={listItemStyle}>
-            <a href="mailto:ipour4321@gmail.com" style={buyNowStyle}>
+            <a href="https://forms.gle/HyFp6o37E9A6CqBX7" style={buyNowStyle}>
               Buy Now
             </a>
           </li>

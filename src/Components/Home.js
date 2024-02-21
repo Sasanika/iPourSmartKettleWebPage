@@ -21,7 +21,7 @@ const Home = () => {
           <button className="secondary-button">
           <a style={{padding:0, textDecoration: 'none'}}
   className="secondary-button"
-  href="mailto:ipour4321@gmail.com?subject=Order%20iPour%20Smart%20Kettle&body=Hi%20there,%0D%0A%0D%0AI%20would%20like%20to%20place%20an%20order%20for%20the%20iPour%20Smart%20Kettle.%0D%0A%0D%0AThank%20you!"
+  href="https://forms.gle/HyFp6o37E9A6CqBX7"
 >
   Buy Now <FiArrowRight />
 </a>

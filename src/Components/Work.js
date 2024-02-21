@@ -9,12 +9,12 @@ const Work = () => {
   const workInfoData = [
     {
       image: temperatureMeter,
-      title: "Precision Temperature Control",
+      title: "Temperature Control",
       text: "Tailor your brewing experience to perfection with precise temperature control via our mobile app.",
     },
     {
       image: smartPhone,
-      title: "Intuitive Interface",
+      title: "User-Friendly Design",
       text: "Experience effortless brewing with our user-friendly mobile app interface, designed for simplicity and convenience.",
     },
     {

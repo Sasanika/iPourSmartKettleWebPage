@@ -282,8 +282,8 @@ nav {
 .work-section-info {
   width: 290px;
   min-height: 350px;
-  background-color: white;
-  padding: 1rem 2rem;
+  background-color: #50B8E7;
+    padding: 1rem 2rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -292,9 +292,11 @@ nav {
   border-radius: 1rem;
   color: #505050;
   margin: 1rem 2rem;
+  box-shadow: #484848;
 }
 .work-section-info h2 {
   margin: 1rem 0rem;
+  color: 'white';
 }
 .work-section-bottom {
   margin-top: 5rem;
@@ -308,6 +310,7 @@ nav {
   display: flex;
   align-items: center;
   font-weight: 600;
+  
 }
 
 @media (max-width: 1000px) {
