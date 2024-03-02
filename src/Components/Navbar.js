@@ -1,14 +1,10 @@
 import React from 'react';
 import kettleLogo from '../Assets/iPourLogo.png';
-import { Link,animateScroll as scroll } from 'react-scroll';
-//import About from './About';
-
+import { animateScroll as scroll } from 'react-scroll';
 
 const Navbar = () => {
-  const handleSetActive = (to) => {
-    
-    scroll.scrollToBottom();
-    console.log(to);
+  const handleScrollToAbout = () => {
+    scroll.scrollTo(document.getElementById('about').offsetTop); // Scroll to the top position of the "about" section
   };
 
   return (
@@ -19,56 +15,16 @@ const Navbar = () => {
       <div style={navbarRightStyle}>
         <ul style={navLinksStyle}>
           <li style={listItemStyle}>
-            <Link
-              activeClass="active"
-              to="/"
-              spy={true}
-              smooth={true}
-              offset={-50} // Adjust offset if needed
-              duration={500}
-              onSetActive={handleSetActive}
-            >
-              Home
-            </Link>
+            <a href="#" onClick={() => handleNavLinkClick('Home')} style={navLinkStyle}>Home</a>
           </li>
           <li style={listItemStyle}>
-            <Link
-              activeClass="active"
-              to="About"
-              spy={true}
-              smooth={true}
-              offset={-50} // Adjust offset if needed
-              duration={500}
-              onSetActive={handleSetActive}
-            >
-              About
-            </Link>
+            <a href="#About" onClick={handleScrollToAbout} style={navLinkStyle}>About</a>
           </li>
           <li style={listItemStyle}>
-            <Link
-              activeClass="active"
-              to="team"
-              spy={true}
-              smooth={true}
-              offset={-50} // Adjust offset if needed
-              duration={500}
-              onSetActive={handleSetActive}
-            >
-              Team
-            </Link>
+            <a href="#Testimonial" onClick={() => handleNavLinkClick('Testimonial')} style={navLinkStyle}>Team</a>
           </li>
           <li style={listItemStyle}>
-            <Link
-              activeClass="active"
-              to="contact"
-              spy={true}
-              smooth={true}
-              offset={-50} // Adjust offset if needed
-              duration={500}
-              onSetActive={handleSetActive}
-            >
-              Contact
-            </Link>
+            <a href="#Contact" onClick={() => handleNavLinkClick('Contact')} style={navLinkStyle}>Contact</a>
           </li>
           <li style={listItemStyle}>
             <a href="https://forms.gle/HyFp6o37E9A6CqBX7" style={buyNowStyle}>
@@ -79,6 +35,11 @@ const Navbar = () => {
       </div>
     </nav>
   );
+};
+
+const handleNavLinkClick = (section) => {
+  // Your custom logic to handle navigation
+  console.log(`Navigating to ${section}`);
 };
 
 const navbarStyle = {
@@ -116,6 +77,11 @@ const navLinksStyle = {
 
 const listItemStyle = {
   marginRight: '20px', // Adjust spacing between list items
+};
+
+const navLinkStyle = {
+  textDecoration: 'none',
+  color: '#fff',
 };
 
 const buyNowStyle = {

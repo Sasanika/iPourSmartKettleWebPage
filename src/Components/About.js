@@ -3,8 +3,7 @@
 import React from "react";
 import AboutBackground from "../Assets/Layer1.png";
 import AboutBackgroundImage from "../Assets/MobileApp.png";
-import AboutBackgroundlogo from "../Assets/iPourLogo.png";
-import { BsFillPlayCircleFill, BsDownload } from "react-icons/bs";
+import { BsDownload } from "react-icons/bs";
 
 const Card = ({ title,price, description }) => {
   return (
@@ -24,19 +23,13 @@ const About = () => {
         <img src={AboutBackground} alt="" />
       </div>
       <div className="about-section-image-container">
-        <img style={{ position: 'relative', left: -120 }} src={AboutBackgroundImage} alt="" />
-        <img
-          src={AboutBackgroundlogo}
-          alt="Logo"
-          style={{
-            position: 'absolute',
-            top: '35%',
-            left: '25%',
-            transform: 'translate(-50%, -50%)',
-            zIndex: 2,
-            width: 100,
-          }}
-        />
+      <img style={{
+  position: 'relative',
+  left: 'calc(-10vw - 20px)', // Adjusted to account for padding/margin
+  height: '50%',
+  maxWidth: '100%', // Ensures the image doesn't exceed its container width
+}} src={AboutBackgroundImage} alt="" />
+       
       </div>
       <div className="about-section-text-container">
         <p className="primary-subheading">About</p>
@@ -50,26 +43,12 @@ const About = () => {
           With the iPour Mobile App, brewing the perfect cup of coffee or tea has never been easier or more enjoyable.
         </p>
         <div className="about-buttons-container">
-          <button className="secondary-button">
-            <BsDownload style={{ marginRight: '10px' }} />
-            Download Now
-          </button>
-          <button className="watch-video-button">
-  <a 
-    href="https://youtu.be/yygJWhXbMQE?si=F6ccWFg1qPx7pF1G" 
-    target="_blank" 
-    rel="noopener noreferrer"
-    style={{
-      color: '#50B8E7',  // Set the color to blue
-      textDecoration: 'none',
-      
-       // Remove text decoration
-    }}
-  >
-    <BsFillPlayCircleFill style={{ position:'relative', top:12}}/>Watch Video
-  </a>
-</button>
+        <a href="https://drive.google.com/file/d/1umJyaQVLOgbn2ddnr2efnf2BbKUh3rja/view?usp=sharing" className="secondary-button" target="_blank" rel="noopener noreferrer" download>
+  <BsDownload style={{ marginRight: '10px' }} />
+  Download Now
+</a>
 
+          
         </div>
         <h1 style={{color:'purple', margin:25}}>Upgrade to Premium</h1>
         <p style={{ color: '#585858', margin: 15, fontSize: 'clamp(1rem, 3vw, 1.5rem)' }}
@@ -113,7 +92,7 @@ const styles = {
   },
   card: {
     width: 'calc(33.33% - 20px)', // Adjusted width to accommodate the padding
-    backgroundColor:'#DCF0FA',
+    backgroundColor:'white',
         border: '1px solid #ddd',
     borderRadius: '10px',
     padding: '20px',
