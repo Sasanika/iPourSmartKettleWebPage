@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/iPourSmartKettleWebPage/static/css/main.180b756b.css",
-    "main.js": "/iPourSmartKettleWebPage/static/js/main.7f07b398.js",
+    "main.css": "/iPourSmartKettleWebPage/static/css/main.ff0c6ae0.css",
+    "main.js": "/iPourSmartKettleWebPage/static/js/main.535a57f2.js",
     "static/media/lakshan.png": "/iPourSmartKettleWebPage/static/media/lakshan.3b309befb0b519ff8bdf.png",
     "static/media/tharani.png": "/iPourSmartKettleWebPage/static/media/tharani.f6e14c3b568861bbef07.png",
-    "static/media/SmartKettle.png": "/iPourSmartKettleWebPage/static/media/SmartKettle.02051f8e48a11ee43ec3.png",
-    "static/media/MobileApp.png": "/iPourSmartKettleWebPage/static/media/MobileApp.1a05993433d79a64d0f2.png",
     "static/media/dinushanka.png": "/iPourSmartKettleWebPage/static/media/dinushanka.fc4b680444c27f1f6411.png",
     "static/media/hasitha.png": "/iPourSmartKettleWebPage/static/media/hasitha.7c74ec9c46f8fed7e0c3.png",
     "static/media/sasa.png": "/iPourSmartKettleWebPage/static/media/sasa.59b4fb552a2a3a473b36.png",
-    "static/media/app.png": "/iPourSmartKettleWebPage/static/media/app.bac224743eab8ed9aa33.png",
-    "static/media/cloud-computing.png": "/iPourSmartKettleWebPage/static/media/cloud-computing.9472d83decbf4ee99791.png",
+    "static/media/page1.png": "/iPourSmartKettleWebPage/static/media/page1.f9713e67bd5407a51e4f.png",
+    "static/media/MobileApp.png": "/iPourSmartKettleWebPage/static/media/MobileApp.9c5ba9914d8a628b7c35.png",
+    "static/media/page2.png": "/iPourSmartKettleWebPage/static/media/page2.0a16282afbce45c02f64.png",
+    "static/media/page3.png": "/iPourSmartKettleWebPage/static/media/page3.21b67d0c5d6647f0028b.png",
+    "static/media/SmartKettle.png": "/iPourSmartKettleWebPage/static/media/SmartKettle.ba32ee50326a9b73e2d7.png",
+    "static/media/mugs.png": "/iPourSmartKettleWebPage/static/media/mugs.efce820334b3081c6de8.png",
+    "static/media/page4.png": "/iPourSmartKettleWebPage/static/media/page4.34ee20a909cae2db43eb.png",
     "static/media/iPourLogo.png": "/iPourSmartKettleWebPage/static/media/iPourLogo.069bfd5b1b419c688cef.png",
-    "static/media/electric-kettle.png": "/iPourSmartKettleWebPage/static/media/electric-kettle.60625da9de617216c3cd.png",
     "static/media/PrivacyPolicy.pdf": "/iPourSmartKettleWebPage/static/media/PrivacyPolicy.e1381e67253c010d0e56.pdf",
     "static/media/termsConditions.pdf": "/iPourSmartKettleWebPage/static/media/termsConditions.48d9b4c822b5cabd95de.pdf",
-    "static/media/smartphone.png": "/iPourSmartKettleWebPage/static/media/smartphone.69b20901b37129b42cf9.png",
-    "static/media/hot.png": "/iPourSmartKettleWebPage/static/media/hot.033aa1d011b0bd74d75f.png",
     "static/media/Layer2.png": "/iPourSmartKettleWebPage/static/media/Layer2.dd595891d07fc1727fa3.png",
     "index.html": "/iPourSmartKettleWebPage/index.html",
-    "main.180b756b.css.map": "/iPourSmartKettleWebPage/static/css/main.180b756b.css.map",
-    "main.7f07b398.js.map": "/iPourSmartKettleWebPage/static/js/main.7f07b398.js.map"
+    "main.ff0c6ae0.css.map": "/iPourSmartKettleWebPage/static/css/main.ff0c6ae0.css.map",
+    "main.535a57f2.js.map": "/iPourSmartKettleWebPage/static/js/main.535a57f2.js.map"
   },
   "entrypoints": [
-    "static/css/main.180b756b.css",
-    "static/js/main.7f07b398.js"
+    "static/css/main.ff0c6ae0.css",
+    "static/js/main.535a57f2.js"
   ]
 }
