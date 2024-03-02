@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/iPourSmartKettleWebPage/static/css/main.ff0c6ae0.css",
-    "main.js": "/iPourSmartKettleWebPage/static/js/main.535a57f2.js",
+    "main.js": "/iPourSmartKettleWebPage/static/js/main.17c34bf2.js",
     "static/media/lakshan.png": "/iPourSmartKettleWebPage/static/media/lakshan.3b309befb0b519ff8bdf.png",
     "static/media/tharani.png": "/iPourSmartKettleWebPage/static/media/tharani.f6e14c3b568861bbef07.png",
     "static/media/dinushanka.png": "/iPourSmartKettleWebPage/static/media/dinushanka.fc4b680444c27f1f6411.png",
@@ -20,10 +20,10 @@
     "static/media/Layer2.png": "/iPourSmartKettleWebPage/static/media/Layer2.dd595891d07fc1727fa3.png",
     "index.html": "/iPourSmartKettleWebPage/index.html",
     "main.ff0c6ae0.css.map": "/iPourSmartKettleWebPage/static/css/main.ff0c6ae0.css.map",
-    "main.535a57f2.js.map": "/iPourSmartKettleWebPage/static/js/main.535a57f2.js.map"
+    "main.17c34bf2.js.map": "/iPourSmartKettleWebPage/static/js/main.17c34bf2.js.map"
   },
   "entrypoints": [
     "static/css/main.ff0c6ae0.css",
-    "static/js/main.535a57f2.js"
+    "static/js/main.17c34bf2.js"
   ]
 }
