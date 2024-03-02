@@ -50,7 +50,7 @@ const navbarStyle = {
   display: 'flex',
   justifyContent: 'space-between',
   alignItems: 'center',
-  padding: 0,
+  padding: '10px 20px', // Add padding
   backgroundColor: 'transparent',
   color: '#fff',
   zIndex: 10,
@@ -89,7 +89,8 @@ const buyNowStyle = {
   backgroundColor: '#fff', // White background color
   color: '#000', // Black font color
   padding: '10px 20px', // Adjust padding as needed
-  borderRadius: '5px', // Rounded corners
+  borderRadius: 8, // Rounded corners
+  whiteSpace: 'nowrap', // Prevent button text from wrapping
 };
 
 export default Navbar;
