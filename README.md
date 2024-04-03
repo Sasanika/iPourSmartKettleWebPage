@@ -37,3 +37,13 @@ or
 ## Support
 
 If you have any questions or need assistance, please contact our support team at sasanikaruwanthi@gmail.com.
+
+## Installation
+
+1. Clone the repository from GitHub `git clone https://github.com/Sasanika/iPourSmartKettleWebPage.git`
+2. Navigate to the project directory: `cd iPourSmartKettleWebPage`
+3. Install dependencies: `npm install`
+4. Configure Firebase: Add your Firebase configuration details in the appropriate files.
+5. Run the application: `npm start`.
+
+
